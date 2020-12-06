@@ -3,12 +3,14 @@
 list_of_no=[]
 count=0
 scount=0
+
 no=int(input("Enter the no of values:"))
 for i in range(0,no):
     count+=1
     x=int(input("Enter no:"))
     list_of_no.append(x)
 n=len(list_of_no)
+
 for i in range(0,n):
     count+=1
     min=list_of_no[i]
